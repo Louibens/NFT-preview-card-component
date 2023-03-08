@@ -1,16 +1,4 @@
-/* ## Colors
 
-### Primary
-
-- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%)
-
-### Neutral
-
-- Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%) */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 * {
@@ -32,7 +20,7 @@ body {
 
 #container {
     background-color: hsl(216, 50%, 16%);
-    height: 580px;
+    height: 550px;
     width: 320px;
     border-radius: 10px;
     display: flex;
@@ -100,25 +88,33 @@ svg {
     display: flex;
     flex-direction: row;
     margin: 20px;
+    align-items: center;
+    align-items: center;
 }
 
 #pic {
     background-image: url(image-avatar.png);
     background-size: contain;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border: 1px solid white
 }
 
 #create {
     color:hsl(215, 51%, 70%);
     margin-left: 20px;
-    margin-top: 10px
+
+    font-weight: 300;
+    font-size: 16px;
+
 }
 
 #name {
     color: white;
-    margin: 10px 0;
-    margin-right: 10px
+
+    margin-right: 20px;
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 16px;
 }
