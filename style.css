@@ -1,0 +1,124 @@
+/* ## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Outfit; 
+}
+
+body {
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background-color: hsl(216, 50%, 16%);
+    height: 580px;
+    width: 320px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 60px rgb(0, 3, 15);
+}
+
+#nft-img {
+    background-image: url(image-equilibrium.jpg);
+    background-size: contain;
+    height: 280px;
+    width: 280px;
+    border-radius: 10px;
+    margin-top: 20px; 
+}
+
+#text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#id {
+    font-weight: 700;
+    color: white;
+    margin: 20px
+}
+
+#details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#info {
+    color: hsl(215, 51%, 70%);
+    margin: 0 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#rate {
+    color: hsl(178, 100%, 50%);
+    margin: 20px
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+    margin: 20px;
+}
+svg {
+    margin-right: 5px;
+    vertical-align: middle
+}
+
+.divider {
+    width: 90%;
+
+    border: 1px solid hsl(215, 32%, 27%)
+}
+
+#creator {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+#pic {
+    background-image: url(image-avatar.png);
+    background-size: contain;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white
+}
+
+#create {
+    color:hsl(215, 51%, 70%);
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+#name {
+    color: white;
+    margin: 10px 0;
+    margin-right: 10px
+}
